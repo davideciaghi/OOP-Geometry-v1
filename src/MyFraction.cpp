@@ -2,7 +2,8 @@
 #include "my_fraction.h"
 #include "iostream"
 
-using namespace std;/*
+using namespace std;
+/*
  *  Source for the not-part-of-a-library class Fraction
  *
  */

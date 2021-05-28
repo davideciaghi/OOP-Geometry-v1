@@ -1,14 +1,14 @@
 #include <iostream>
+#include <stdexcept>
 
-#include "my_fraction.h"
-#include "cxx_examples.h"
+#include "geometry.h"
 
 using namespace std;
 
 int main ()
 {
  
-   Point p1 (11 , 3);
+   Point p1 (11 , 3); 
    cout << "p1: " << p1.as_string() << endl;
  
    Point p2 (12 , 7);   
