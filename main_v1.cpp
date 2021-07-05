@@ -22,9 +22,14 @@ int main ()
  
    Point p5 (15 , 5);
    cout << "p5: " << p5.as_string() << endl;
-  
+
+
+
+   cout << "p1_x: " << p1.get_x() << endl;
  
-   PointArray pa;
+
+
+   PointArray pa;   // Non passando alcun dato il costruttore genera un array vuoto
  
    cout << pa.as_string() << endl;
  
@@ -79,6 +84,8 @@ int main ()
    cout << "pa: " << pa.as_string() << endl;
    cout << "pa2: " << pa2.as_string() << endl;
  
+
+
    return 0;
 };
 
